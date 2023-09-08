@@ -3,18 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@1,500&display=swap"
+      rel="stylesheet"
+    />
     <title>Dominos Silvarum</title>
     <style>
       body {
         background-color: #5d1313;
         color: #ffd11a;
-        font-size: 34px;
-
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-direction: column;
 
-        height: 100vh;
+        height: 90vh;
       }
       img {
         width: 500px;
@@ -23,6 +28,13 @@
         animation-iteration-count: 4;
         animation-direction: alternate;
         animation-timing-function: cubic-bezier(0.65, 0, 0.35, 1);
+      }
+      a {
+        position: relative;
+        z-index: 3;
+        color: white;
+        font-family: "Alegreya", serif;
+        font-style: italic;
       }
       @media (max-width: 700px) {
         img {
@@ -42,5 +54,6 @@
   </head>
   <body>
     <img src="./media/logo.jpg" alt="" />
+    <a href="./essentialia.txt">Essentialia</a>
   </body>
 </html>
