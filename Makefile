@@ -1,1 +1,2 @@
+dev:
 	npx parcel *.html
